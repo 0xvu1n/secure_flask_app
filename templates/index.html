@@ -1,10 +1,12 @@
 {% extends 'base.html' %}
 {% block title %}Home{% endblock %}
+
 {% block content %}
 <div class="container text-center">
-    <h1>Welcome to the Secure Flask App</h1>
+    <h1 class="my-4">Welcome to the Secure Flask App</h1>
     <p class="lead">A simple web application with robust security features.</p>
     <hr>
+    
     <div class="mt-4">
         {% if current_user.is_authenticated %}
         <p>You are logged in as <strong>{{ current_user.username }}</strong>.</p>
