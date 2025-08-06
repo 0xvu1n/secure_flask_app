@@ -8,5 +8,4 @@ from main_app import app
 
 from flask_netlify import create_wsgi_handler
 
-# Create the WSGI handler for Netlify
 handler = create_wsgi_handler(app)
