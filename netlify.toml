@@ -1,10 +1,9 @@
 [build]
   command = "pip install -r requirements.txt"
   functions = "netlify/functions"
-  publish = "templates"
+  publish = "build"
 
-[functions]
-  directory = "netlify/functions"
-
-[functions."app"]
-  handler = "app.handler"
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/app"
+  status = 200
