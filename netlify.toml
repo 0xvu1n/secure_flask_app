@@ -1,0 +1,10 @@
+[build]
+  command = "pip install -r requirements.txt"
+  functions = "netlify/functions"
+  publish = "templates"
+
+[functions]
+  directory = "netlify/functions"
+
+[functions."app"]
+  handler = "app.handler"
