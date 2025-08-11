@@ -1,3 +1,4 @@
-Homepage of the application
+Basic working of the application
 
-<img width="1919" height="998" alt="image" src="https://github.com/user-attachments/assets/20ebd8e5-2d29-45e8-a929-e469e788666a" />
+https://github.com/user-attachments/assets/b5a98d5d-7ff6-4d47-a211-f4509a7ad43e
+
